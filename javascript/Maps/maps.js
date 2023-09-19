@@ -1,0 +1,11 @@
+const firstMap=new Map();
+firstMap.set('name','Akhil')
+firstMap.set('age',22)
+firstMap.set('place','Mlp')
+console.log(firstMap)
+console.log(firstMap.get('age'))
+firstMap.delete('place')
+console.log(firstMap)
+console.log(firstMap.size)
+console.log(firstMap.has('name'))
+console.log(firstMap.has('place'))

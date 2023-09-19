@@ -1,0 +1,16 @@
+let text=' My name is,Akhil'
+console.log(text.length)
+console.log(text.substring(5,10))
+let newt=text.replace('Akhil','Anu')
+console.log(newt)
+console.log(text.toUpperCase())
+console.log(text.concat(' hello'))
+console.log(text .trim())
+console.log(text.split(' '))
+console.log(text.lastIndexOf('Akhil'))
+console.log(text.search('name'))
+console.log(text.match('Akh'))
+console.log(text.includes('is'))
+console.log(text.startsWith('My',1))
+console.log(text.indexOf('Akhil'))
+
